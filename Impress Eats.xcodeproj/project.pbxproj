@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839B86051F06DD0800C1A183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839B86041F06DD0800C1A183 /* AppDelegate.swift */; };
+		839B86071F06DD0800C1A183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839B86061F06DD0800C1A183 /* ViewController.swift */; };
+		839B860A1F06DD0800C1A183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839B86081F06DD0800C1A183 /* Main.storyboard */; };
+		839B860C1F06DD0800C1A183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839B860B1F06DD0800C1A183 /* Assets.xcassets */; };
+		839B860F1F06DD0800C1A183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839B860D1F06DD0800C1A183 /* LaunchScreen.storyboard */; };
+		839B861A1F06DD0800C1A183 /* Impress_EatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839B86191F06DD0800C1A183 /* Impress_EatsTests.swift */; };
+		839B86251F06DD0800C1A183 /* Impress_EatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839B86241F06DD0800C1A183 /* Impress_EatsUITests.swift */; };
+		8421630E1F54CE530014AF69 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421630D1F54CE530014AF69 /* loginViewController.swift */; };
+		842163101F55C1C10014AF69 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421630F1F55C1C10014AF69 /* signupViewController.swift */; };
+		8459A0311F47933900003713 /* bebasneue_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8459A0301F47933900003713 /* bebasneue_bold.ttf */; };
+		8459A0331F47934A00003713 /* bebasneue_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8459A0321F47934A00003713 /* bebasneue_light.ttf */; };
+		847A38841F4362F400AACA03 /* bebas in Resources */ = {isa = PBXBuildFile; fileRef = 847A38831F4362F400AACA03 /* bebas */; };
+		847A38861F43748E00AACA03 /* bebasneue_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 847A38851F43748E00AACA03 /* bebasneue_regular.ttf */; };
+		84A0E8481F4CA84100F88174 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0E8471F4CA84100F88174 /* Reachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		839B86161F06DD0800C1A183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839B85F91F06DD0800C1A183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839B86001F06DD0800C1A183;
+			remoteInfo = "Impress Eats";
+		};
+		839B86211F06DD0800C1A183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839B85F91F06DD0800C1A183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839B86001F06DD0800C1A183;
+			remoteInfo = "Impress Eats";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		839B86011F06DD0800C1A183 /* Impress Eats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Impress Eats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839B86041F06DD0800C1A183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		839B86061F06DD0800C1A183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		839B86091F06DD0800C1A183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839B860B1F06DD0800C1A183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839B860E1F06DD0800C1A183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		839B86101F06DD0800C1A183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839B86151F06DD0800C1A183 /* Impress EatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Impress EatsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839B86191F06DD0800C1A183 /* Impress_EatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impress_EatsTests.swift; sourceTree = "<group>"; };
+		839B861B1F06DD0800C1A183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839B86201F06DD0800C1A183 /* Impress EatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Impress EatsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839B86241F06DD0800C1A183 /* Impress_EatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impress_EatsUITests.swift; sourceTree = "<group>"; };
+		839B86261F06DD0800C1A183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8421630D1F54CE530014AF69 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		8421630F1F55C1C10014AF69 /* signupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = signupViewController.swift; path = ../signupViewController.swift; sourceTree = "<group>"; };
+		8459A0301F47933900003713 /* bebasneue_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = bebasneue_bold.ttf; path = "Impress Eats/bebas/bebasneue_bold.ttf"; sourceTree = "<group>"; };
+		8459A0321F47934A00003713 /* bebasneue_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = bebasneue_light.ttf; path = "Impress Eats/bebas/bebasneue_light.ttf"; sourceTree = "<group>"; };
+		847A38831F4362F400AACA03 /* bebas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bebas; sourceTree = "<group>"; };
+		847A38851F43748E00AACA03 /* bebasneue_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = bebasneue_regular.ttf; path = "Impress Eats/bebas/bebasneue_regular.ttf"; sourceTree = "<group>"; };
+		84A0E8471F4CA84100F88174 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839B85FE1F06DD0800C1A183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839B86121F06DD0800C1A183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839B861D1F06DD0800C1A183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839B85F81F06DD0800C1A183 = {
+			isa = PBXGroup;
+			children = (
+				8459A0321F47934A00003713 /* bebasneue_light.ttf */,
+				8459A0301F47933900003713 /* bebasneue_bold.ttf */,
+				847A38851F43748E00AACA03 /* bebasneue_regular.ttf */,
+				839B86031F06DD0800C1A183 /* Impress Eats */,
+				839B86181F06DD0800C1A183 /* Impress EatsTests */,
+				839B86231F06DD0800C1A183 /* Impress EatsUITests */,
+				839B86021F06DD0800C1A183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839B86021F06DD0800C1A183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839B86011F06DD0800C1A183 /* Impress Eats.app */,
+				839B86151F06DD0800C1A183 /* Impress EatsTests.xctest */,
+				839B86201F06DD0800C1A183 /* Impress EatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839B86031F06DD0800C1A183 /* Impress Eats */ = {
+			isa = PBXGroup;
+			children = (
+				847A38831F4362F400AACA03 /* bebas */,
+				839B86041F06DD0800C1A183 /* AppDelegate.swift */,
+				839B86061F06DD0800C1A183 /* ViewController.swift */,
+				839B86081F06DD0800C1A183 /* Main.storyboard */,
+				839B860B1F06DD0800C1A183 /* Assets.xcassets */,
+				839B860D1F06DD0800C1A183 /* LaunchScreen.storyboard */,
+				839B86101F06DD0800C1A183 /* Info.plist */,
+				84A0E8471F4CA84100F88174 /* Reachability.swift */,
+				8421630D1F54CE530014AF69 /* loginViewController.swift */,
+				8421630F1F55C1C10014AF69 /* signupViewController.swift */,
+			);
+			path = "Impress Eats";
+			sourceTree = "<group>";
+		};
+		839B86181F06DD0800C1A183 /* Impress EatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				839B86191F06DD0800C1A183 /* Impress_EatsTests.swift */,
+				839B861B1F06DD0800C1A183 /* Info.plist */,
+			);
+			path = "Impress EatsTests";
+			sourceTree = "<group>";
+		};
+		839B86231F06DD0800C1A183 /* Impress EatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				839B86241F06DD0800C1A183 /* Impress_EatsUITests.swift */,
+				839B86261F06DD0800C1A183 /* Info.plist */,
+			);
+			path = "Impress EatsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839B86001F06DD0800C1A183 /* Impress Eats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839B86291F06DD0800C1A183 /* Build configuration list for PBXNativeTarget "Impress Eats" */;
+			buildPhases = (
+				839B85FD1F06DD0800C1A183 /* Sources */,
+				839B85FE1F06DD0800C1A183 /* Frameworks */,
+				839B85FF1F06DD0800C1A183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Impress Eats";
+			productName = "Impress Eats";
+			productReference = 839B86011F06DD0800C1A183 /* Impress Eats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		839B86141F06DD0800C1A183 /* Impress EatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839B862C1F06DD0800C1A183 /* Build configuration list for PBXNativeTarget "Impress EatsTests" */;
+			buildPhases = (
+				839B86111F06DD0800C1A183 /* Sources */,
+				839B86121F06DD0800C1A183 /* Frameworks */,
+				839B86131F06DD0800C1A183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839B86171F06DD0800C1A183 /* PBXTargetDependency */,
+			);
+			name = "Impress EatsTests";
+			productName = "Impress EatsTests";
+			productReference = 839B86151F06DD0800C1A183 /* Impress EatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		839B861F1F06DD0800C1A183 /* Impress EatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839B862F1F06DD0800C1A183 /* Build configuration list for PBXNativeTarget "Impress EatsUITests" */;
+			buildPhases = (
+				839B861C1F06DD0800C1A183 /* Sources */,
+				839B861D1F06DD0800C1A183 /* Frameworks */,
+				839B861E1F06DD0800C1A183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839B86221F06DD0800C1A183 /* PBXTargetDependency */,
+			);
+			name = "Impress EatsUITests";
+			productName = "Impress EatsUITests";
+			productReference = 839B86201F06DD0800C1A183 /* Impress EatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839B85F91F06DD0800C1A183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Division 1 Media Corp.";
+				TargetAttributes = {
+					839B86001F06DD0800C1A183 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z62289RJA8;
+						ProvisioningStyle = Manual;
+					};
+					839B86141F06DD0800C1A183 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z62289RJA8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 839B86001F06DD0800C1A183;
+					};
+					839B861F1F06DD0800C1A183 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z62289RJA8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 839B86001F06DD0800C1A183;
+					};
+				};
+			};
+			buildConfigurationList = 839B85FC1F06DD0800C1A183 /* Build configuration list for PBXProject "Impress Eats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839B85F81F06DD0800C1A183;
+			productRefGroup = 839B86021F06DD0800C1A183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839B86001F06DD0800C1A183 /* Impress Eats */,
+				839B86141F06DD0800C1A183 /* Impress EatsTests */,
+				839B861F1F06DD0800C1A183 /* Impress EatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839B85FF1F06DD0800C1A183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8459A0331F47934A00003713 /* bebasneue_light.ttf in Resources */,
+				8459A0311F47933900003713 /* bebasneue_bold.ttf in Resources */,
+				847A38861F43748E00AACA03 /* bebasneue_regular.ttf in Resources */,
+				839B860F1F06DD0800C1A183 /* LaunchScreen.storyboard in Resources */,
+				839B860C1F06DD0800C1A183 /* Assets.xcassets in Resources */,
+				847A38841F4362F400AACA03 /* bebas in Resources */,
+				839B860A1F06DD0800C1A183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839B86131F06DD0800C1A183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839B861E1F06DD0800C1A183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839B85FD1F06DD0800C1A183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8421630E1F54CE530014AF69 /* loginViewController.swift in Sources */,
+				839B86071F06DD0800C1A183 /* ViewController.swift in Sources */,
+				842163101F55C1C10014AF69 /* signupViewController.swift in Sources */,
+				839B86051F06DD0800C1A183 /* AppDelegate.swift in Sources */,
+				84A0E8481F4CA84100F88174 /* Reachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839B86111F06DD0800C1A183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839B861A1F06DD0800C1A183 /* Impress_EatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839B861C1F06DD0800C1A183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839B86251F06DD0800C1A183 /* Impress_EatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		839B86171F06DD0800C1A183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839B86001F06DD0800C1A183 /* Impress Eats */;
+			targetProxy = 839B86161F06DD0800C1A183 /* PBXContainerItemProxy */;
+		};
+		839B86221F06DD0800C1A183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839B86001F06DD0800C1A183 /* Impress Eats */;
+			targetProxy = 839B86211F06DD0800C1A183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		839B86081F06DD0800C1A183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839B86091F06DD0800C1A183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		839B860D1F06DD0800C1A183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839B860E1F06DD0800C1A183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839B86271F06DD0800C1A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		839B86281F06DD0800C1A183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839B862A1F06DD0800C1A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Z62289RJA8;
+				INFOPLIST_FILE = "Impress Eats/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.division1.impresseats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9f9006be-7e16-4ea5-ba88-61093c5def28";
+				PROVISIONING_PROFILE_SPECIFIER = ImpressAppStore;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		839B862B1F06DD0800C1A183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Z62289RJA8;
+				INFOPLIST_FILE = "Impress Eats/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.division1.impresseats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9f9006be-7e16-4ea5-ba88-61093c5def28";
+				PROVISIONING_PROFILE_SPECIFIER = ImpressAppStore;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		839B862D1F06DD0800C1A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z62289RJA8;
+				INFOPLIST_FILE = "Impress EatsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.division1.Impress-EatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impress Eats.app/Impress Eats";
+			};
+			name = Debug;
+		};
+		839B862E1F06DD0800C1A183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z62289RJA8;
+				INFOPLIST_FILE = "Impress EatsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.division1.Impress-EatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impress Eats.app/Impress Eats";
+			};
+			name = Release;
+		};
+		839B86301F06DD0800C1A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z62289RJA8;
+				INFOPLIST_FILE = "Impress EatsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.division1.Impress-EatsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Impress Eats";
+			};
+			name = Debug;
+		};
+		839B86311F06DD0800C1A183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z62289RJA8;
+				INFOPLIST_FILE = "Impress EatsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.division1.Impress-EatsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Impress Eats";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839B85FC1F06DD0800C1A183 /* Build configuration list for PBXProject "Impress Eats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839B86271F06DD0800C1A183 /* Debug */,
+				839B86281F06DD0800C1A183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839B86291F06DD0800C1A183 /* Build configuration list for PBXNativeTarget "Impress Eats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839B862A1F06DD0800C1A183 /* Debug */,
+				839B862B1F06DD0800C1A183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839B862C1F06DD0800C1A183 /* Build configuration list for PBXNativeTarget "Impress EatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839B862D1F06DD0800C1A183 /* Debug */,
+				839B862E1F06DD0800C1A183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839B862F1F06DD0800C1A183 /* Build configuration list for PBXNativeTarget "Impress EatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839B86301F06DD0800C1A183 /* Debug */,
+				839B86311F06DD0800C1A183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839B85F91F06DD0800C1A183 /* Project object */;
+}
